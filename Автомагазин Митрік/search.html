@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук</title>
+</head>
+<body>
+    
+  <form> 
+    <fieldset>
+      <legend><h1>Пошук автомобіля за його характеристиками</h1></legend>
+
+    <label for="carcase">Тип кузова:</label>
+    <select id="carcase">
+      <option>Кроссовер</option>
+      <option>Купе</option>
+      <option >Лімузин</option>
+      <option>Пікап</option>
+      <option>Седан</option>
+      <option>Стретч</option>
+      <option>Кабріолет</option>
+      <option>Фургон</option>
+      <option>Універсал</option>
+    </select>
+      
+    <label for="cars">Марка автомобіля:</label>
+    <select id="cars">
+      <option>Nissan</option>
+      <option>Toyota</option>
+      <option>BMW</option>
+      <option>Wolksvagen</option>
+      <option>Skoda</option>
+      <option>Mercedes-Benz</option>
+    </select>
+  
+    <label for="color">Колір:</label>
+    <select id="color">
+      <option>Синій</option>
+      <option>Зелений</option>
+      <option>Жовтий</option>
+      <option>Червоний</option>
+      <option>Помаранчевий</option>
+      <option>Чорний</option>
+    </select>
+    
+    <label>Ціна:<input type="number" id="price" min="5000" max="200000"></label>
+
+    <label>Рік випуску: <input type="number" id="year" min="2013" max="2023"></label>
+
+    <label for="country">Країна:</label>
+    <select id="country">
+      <option>Україна</option>
+      <option>США</option>
+      <option>Саудівська Аравія</option>
+      <option>Франція</option>
+      <option>Німеччина</option>
+      <option>Японія</option>
+    </select>
+
+    <label for="state">Стан:</label>
+    <select id="state" multiple>
+      <option>Бито</option>
+      <option>На кредиті</option>
+      <option>Мито</option>
+    </select>
+
+    <label for="fuel">Паливо:</label>
+    <select id="fuel" multiple>
+      <option>Бензин</option>
+      <option>Дизель</option>
+      <option>Метан</option>
+      <option>Пропан-бутан</option>
+      <option>Водень</option>
+    </select>
+
+    <label for="box">Тип коробки передач:</label>
+    <select id="box">
+      <option>Механічна</option>
+      <option>Автоматична</option>
+      <option>Роботизована</option>
+      <option>Варіативна</option>
+    </select>
+
+    <label>Комфорт:<input type="text" id="comf"></label>
+
+    <input type="submit" value="Submit" class="btn">
+
+    </fieldset>
+
+    </form>
+    
+</body>
+</html>
