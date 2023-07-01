@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="tabs-section">
+      <div class="tab" id="nav-tab" role="tablist">
+        <button class="tablinks" id="nav-home" type="button" role="tab" onclick="openTab(event, 'tab-home')">Home</button>
+        <button class="tablinks" id="nav-profile" type="button" role="tab" onclick="openTab(event, 'tab-profile')">Profile</button>
+        <button class="tablinks" id="nav-contact" type="button" role="tab" onclick="openTab(event, 'tab-contact')">Contact</button>
+        <button class="tablinks" id="nav-delivery" type="button" role="tab" onclick="openTab(event, 'tab-delivery')">Delivery</button>
+      </div>
+    </section>
+    <section class="py-rem first-section">
+      <div id="tab-home" class="tabcontent" role="tabpanel">
+        <p>Home tab content</p>
+      </div>
+      <div id="tab-profile" class="tabcontent" role="tabpanel">
+        <p>Profile tab content</p>
+      </div>
+      <div id="tab-contact" class="tabcontent" role="tabpanel">
+        <p>Contact tab content</p>
+      </div>   
+      <div id="tab-delivery" class="tabcontent" role="tabpanel">
+        <p>Delivery tab content</p>
+      </div> 
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
