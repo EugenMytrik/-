@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body>
+    <header>Timer</header>
+    <main>
+        <section class="py-rem first-section">
+            <div class="container">
+                <h1>Title</h1>
+                <hr class="my-rem"/>
+                <form id="timerForm">
+                    <label>
+                        <span>Enter timer interval (in sec.)</span>
+                        <input type="number" name="interval" id="interval" min="0"/>
+                    </label>
+                    <br/>
+                    <button type="submit">Start!</button>
+                    <button id="stopButton" onclick="alert('Continue timer?')" style="display: none;">Stop</button>
+                </form>
+                <br/>
+                <p style="font-size: 2rem; font-weight: 700">
+                    <span id="timerRestH" style="display: none;">0 h.</span>
+                    <span id="timerRestM" style="display: none;">0 m.</span>
+                    <span id="timerRestS">0 s.</span>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
