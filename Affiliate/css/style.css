@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #1D2F38;
+    font-weight: 400;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.gap{
+    height: 60px;
+}
+
+.left-part{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+a{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.introducing{
+    background-color: #E3EBF1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.text{
+    width: 50%;
+}
+
+.btn-green{
+    background-color: #17A550;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+.blog-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.blog{
+    max-width: 48.2%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bla{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    background-color: #E3EBF1;
+    border-radius: 10px;
+    max-width: 31%;
+}
+
+.button-yellow{
+    background-color: #FFC728;
+    width: 82px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-none{
+    color: #536D7A;
+    background-color: none;
+    border: none;
+}
+
+.button-grey{
+    color: white;
+    background-color: #768F9C;
+    width: 81px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+#email{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-up{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.foocard{
+    max-width: 31%;
+}
+
+.miniblog{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.minicard{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#foo2 img{
+    width: 139px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+#browse{
+    height: 50px;
+    border-radius: 5px;
+    border-color: #AABCC5;
+}
+
+.left{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.right{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
