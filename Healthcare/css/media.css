@@ -1,0 +1,61 @@
+@media(max-width: 1060px) {
+    .exposition{
+        max-width: 100%;
+    }
+    .illustration{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 750px) {
+    .doctor-card,
+    .doctor-card-inactive{
+        max-width: 50%;
+    }
+
+    .profile,
+    .description{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 610px) {
+    .container{
+        margin: 0 auto;
+    }
+    .step-card,
+    .spec-card,
+    .client-card{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 560px) {
+    .doctor-card,
+    .doctor-card-inactive{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .column{
+        max-width: 50%;
+    }
+    .advertisement,
+    .doctor{
+    max-width: 100%;
+    }
+}
+
+
+@media(max-width: 420px) {
+    .container{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 420px) {
+    .column{
+        max-width: 100%;
+    }
+}

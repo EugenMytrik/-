@@ -1,0 +1,182 @@
+@import url("/img/doctor2.jpg");
+
+.steps{
+    text-align: center;
+}
+
+.steps-wrap,
+.introduction,
+.qualities,
+.slider,
+.doctors-wrap,
+.mobile-app,
+.motivation,
+.clients-wrap,
+.client-card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.step-card,
+.client-card{
+    text-align: center;
+    max-width: 30%;
+}
+
+.quality{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile,
+.description,
+.illustration,
+.exposition,
+.doctress{
+    max-width: 50%;
+}
+
+.description h2{
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.description p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #3D3D3FB2;
+}
+
+.description li{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#exploreSpecialists{
+    color: white;
+    background-color: #40A3F8;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.profile img{
+    width: 100%;
+}
+
+.service{
+    text-align: center;
+}
+
+.spec-card{
+    max-width: 30%;
+    border-radius: 5px;
+    background-color: #75757575;
+}
+
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+.dot.active {
+    background-color: #333;
+}
+
+
+.doctors{
+    text-align: center;
+}
+
+.doctor-card,
+.doctor-card-inactive{
+    max-width: 25%;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.doc,
+#doctress,
+#ill{
+    width: 100%;
+}
+
+#exploreDoctors{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #40A3F8;
+    height: 47px;
+    width: 200px;
+}
+
+.exposition h2{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.exposition p{
+    color: #3D3D3FB2;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.app-stores{
+    display: flex;
+    justify-content: space-between;
+}
+
+#GooglePlay,
+#AppStore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.app-stores a{
+    text-decoration: none;
+}
+
+.some-text{
+    color: white;
+}
+
+.personality,
+.stars{
+    width: 50%;
+}
+
+.motivation{
+    background-color: #40A3F8;
+}
+
+.frame{
+    color: white;
+}
+
+#booking{
+    background-color: white;
+    color: #40A3F8;
+    border-radius: 5px;
+    border: none;
+    height: 52px;
+}

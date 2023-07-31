@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-up">
+                <div class="divider">
+                    <h2>HEALTCARE.</h2>
+                </div>
+                <div class="divider">
+                    <nav class="navbar">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Article</a>
+                        <a href="">Services</a>
+                        <button class="modal">Get Started</button>
+                    </nav>
+                </div>               
+            </div>
+            <div class="header-down">
+                <div class="advertisement">
+                    <h2>Find And Search
+                    Your Suitable Doctor’s</h2>
+                    <p>Join us and take care of yourself and your family with health 
+                    services that will make you feel confident and safe in your daily life.</p>
+                    <div class="browse">
+                        <input type="text" placeholder="Find your doctor" id="finding">
+                        <div class="dropdown">
+                            <button id="location">New York, USA ⬇</button>
+                            <div class="dropdown-content">
+                                <p>New York, USA</p>
+                                <p>London, UK</p>
+                                <p>Paris, France</p>
+                                <p>Los-Angeles, USA</p>
+                                <p>Kyiv, Ukraine</p>
+                            </div>
+                        </div>
+                        <button id="search">🔍</button>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="img/doctor1.png">
+                </div>
+            </div>
+        </div>
+        <div class="modal-wrapper">
+            <div class="modal-window">
+                <span class="close">&times;</span>
+                <h2>Log in</h2>
+                <hr/>
+                <form>
+                    <label>
+                        <input type="text" name="name" placeholder="Name">
+                    </label>
+                    <label>
+                        <input type="text" name="family" placeholder="family">
+                    </label>
+                    <label>
+                        <input type="email" name="email" placeholder="Your email">
+                    </label>
+                    <label>
+                        <input type="tel" name="phone" placeholder="Your phone">
+                    </label>
+                    <button type="submit" class="finish">Finish</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="gap"></div>
+            <div class="steps">
+                <h2>3 Easy Steps and Get Your Solution</h2>
+                <div class="steps-wrap">
+                    <div class="step-card">
+                        <img src="img/icon1.png">
+                        <h4>Find best doctor’s</h4>
+                        <p>Find your doctor easily with a minimum of effort. 
+                        We've kept everything organised for you.</p>
+                    </div>
+                    <div class="step-card">
+                        <img src="img/icon2.png">
+                        <h4>Get Appointment</h4>
+                        <p>Ask for an appointment of the doctor quickly with 
+                        almost a single click. We take care of the rest.</p>
+                    </div>
+                    <div class="step-card">
+                        <img src="img/icon3.png">
+                        <h4>Happy Consultations</h4>
+                        <p>Do consultations and  take the service based on 
+                        your appointment. Get back to good health</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <div class="quality">
+                <div class="profile">
+                    <img src="img/doctor2.jpg">
+                </div>
+                <div class="description">
+                    <h2>Best quality service with our experience doctors</h2>
+                    <p>With our top doctors, we are able to provide best medical 
+                    services above average We have highly experienced doctors, so don't worry 
+                    They are also very talented in their fields</p>
+                    <ul>
+                        <li>Search your specialist & Online consultations anywhere</li>
+                        <li>Consultation our top specialists</li>
+                        <li>Doctors are available 24/7</li>
+                    </ul>
+                    <a href="#doctors">
+                        <button id="exploreSpecialists">Explore specialists ➡️</button>
+                    </a>          
+                </div>
+            </div>
+            <div class="gap"></div>
+            <div class="service">
+                <h2>Our Service</h2>
+                <p>Our doctors have high qualified skills and are 
+                guaranteed to help you recover from your disease.</p>
+                <div class="slider">
+                    <div class="spec-card">
+                        <img src="img/sign1.jpg">
+                        <h4>Cardiology</h4>
+                        <p>Our cardiologists are skilled at  the diagnosing and 
+                        treating diseases of the cardiovascular system.</p>
+                    </div>
+                    <div class="spec-card">
+                        <img src="img/sign2.jpg">
+                        <h4>Pulmonology</h4>
+                        <p>Our Pulmonologist are skilled at  diagnosing treating
+                        diseases of the Pulmonology system.</p>
+                    </div>
+                    <div class="spec-card">
+                        <img src="img/sign3.jpg">
+                        <h4>Medicine</h4>
+                        <p>Our medcine doctor are skilled at  diagnosing treating
+                        diseases of the  latest medicne system.</p>
+                    </div>
+                    <div class="spec-card">
+                        <img src="img/sign1.jpg">
+                        <h4>Cardiology</h4>
+                        <p>Our cardiologists are skilled at  the diagnosing and 
+                        treating diseases of the cardiovascular system.</p>
+                    </div>
+                    <div class="spec-card">
+                        <img src="img/sign2.jpg">
+                        <h4>Pulmonology</h4>
+                        <p>Our Pulmonologist are skilled at  diagnosing treating
+                        diseases of the Pulmonology system.</p>
+                    </div>
+                    <div class="spec-card">
+                        <img src="img/sign3.jpg">
+                        <h4>Medicine</h4>
+                        <p>Our medcine doctor are skilled at  diagnosing treating
+                        diseases of the  latest medicne system.</p>
+                    </div>
+                </div>
+                <div class="dots">
+                    <span class="dot active" onclick="showSlide(0)"></span>
+                    <span class="dot" onclick="showSlide(1)"></span>
+                    <span class="dot" onclick="showSlide(2)"></span>
+                    <span class="dot" onclick="showSlide(3)"></span>
+                    <span class="dot" onclick="showSlide(4)"></span>
+                    <span class="dot" onclick="showSlide(5)"></span>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <div class="doctors">
+                <h2>Meet Our Certified Online Doctors</h2>
+                <div class="scroller"></div>
+                <p>Our online doctors have an average of 15 
+                years experience and a 98% satisfaction rating, they really set us apart!</p>
+                <div class="doctors-wrap" id="doctors">
+                    <div class="doctor-card">
+                        <img src="img/person1.jpg" class="doc">
+                        <h4>Dr Amanda Linda </h4>
+                        <p>Dentist Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card">
+                        <img src="img/person2.jpg" class="doc">
+                        <h4>Dr. Alisa Rahman</h4>
+                        <p>Carddiologist Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card">
+                        <img src="img/person3.jpg" class="doc">
+                        <h4>Dr. Anthony Fauci</h4>
+                        <p>Neurology Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card">
+                        <img src="img/person4.jpg" class="doc">
+                        <h4>Dr. Khalid Abbed</h4>
+                        <p>Cancer Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card-inactive" style="display: none;">
+                        <img src="img/person1.jpg" class="doc">
+                        <h4>Dr Amanda Linda </h4>
+                        <p>Dentist Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card-inactive" style="display: none;">
+                        <img src="img/person2.jpg" class="doc">
+                        <h4>Dr. Alisa Rahman</h4>
+                        <p>Carddiologist Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card-inactive" style="display: none;">
+                        <img src="img/person3.jpg" class="doc">
+                        <h4>Dr. Anthony Fauci</h4>
+                        <p>Neurology Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card-inactive" style="display: none;">
+                        <img src="img/person4.jpg" class="doc">
+                        <h4>Dr. Khalid Abbed</h4>
+                        <p>Cancer Specilist</p>
+                        <div class="social-media">
+                            <a href="https://uk-ua.facebook.com"><img src="img/facebook.jpg"></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="img/twitter.jpg"></a>
+                            <a href="https://ua.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com.ua%2F"><img src="img/lindekin.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+                <button id="exploreDoctors">Explore All Doctors</button>
+            </div>
+            <div class="gap"></div>
+            <div class="mobile-app">
+                <div class="illustration">
+                    <img src="img/ill.png" id="ill">
+                </div>  
+                <div class="exposition">
+                    <h2>Mobile apps are available
+                    Get HealthCare for free!</h2>
+                    <p>Get on-demand access to a doctor on your phone with the free HealthCare mobile app.
+                    Download and register on our app for free and feel safe for all your family</p>
+                    <div class="app-stores">
+                        <a href="https://play.google.com/store/games?hl=ru&gl=US">
+                            <button id="GooglePlay">
+                                <img src="img/GooglePlay.png">
+                                <div class="some-text">
+                                    <p>Get it on</p>
+                                    <p>GooglePlay</p>
+                                </div>                 
+                            </button>
+                        </a>
+                        <a href="https://www.apple.com/ua/app-store/">
+                            <button id="AppStore">
+                                <img src="img/AppStore.png">
+                                <div class="some-text">
+                                    <p>Download on the</p>
+                                    <p>AppStore</p>
+                                </div>                         
+                            </button>
+                        </a>           
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <div class="clients">
+                <h2>Look our Clients have to say about us</h2>
+                <div class="clients-wrap">
+                    <div class="client-card">
+                        <img src="img/client1.jpg">
+                        <div class="client-card-wrap">                          
+                            <div class="personality">
+                                <h4>Alan Zara dilan</h4>
+                                <p>New York, America, USA</p>   
+                            </div>
+                            <img src="img/stars.jpg" class="stars">
+                        </div>                       
+                        <p>Telehealth is fueled by digital technologies and DocTime telemedicine app
+                        has brought a great revolution in medical services specially an 
+                        overpopulated country where virtual chamber can create at anywhere thoughout country</p>
+                    </div>
+                    <div class="client-card">
+                        <img src="img/client2.jpg">
+                        <div class="client-card-wrap">                        
+                            <div class="personality">
+                                <h4>Alex Maxwell</h4>
+                                <p>San Francisco, USA</p>                        
+                            </div>
+                            <img src="img/stars.jpg" class="stars">
+                        </div>                      
+                        <p>I visited my PCP for abdominal pain. 
+                        My doctor told me that I need to see Gastroenterologist. 
+                        Earlier I used to call multiple offices to schedule an appointment that suites my time.</p>
+                    </div>
+                    <div class="client-card">
+                        <img src="img/client3.jpg">
+                        <div class="client-card-wrap">                           
+                            <div class="personality">
+                                <h4>Dr. Tasnim zara</h4>
+                                <p>Los Angeles, USA</p> 
+                            </div>
+                            <img src="img/stars.jpg" class="stars">
+                        </div>                       
+                        <p>HealthCare is enlightens my superpower each and every time...! 
+                        I find DocTime a brand-able telemedicine platform with virtual waiting 
+                        room, video consultation, e-prescription, beautifully planned user interface. Thank you :) </p>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <div class="motivation">
+                <div class="frame">
+                    <h2>It’s time change your life today</h2>
+                    <button class="modal" id="booking">Book an Appoinment </button>
+                </div>
+                <div class="doctress">
+                    <img src="img/doctress.jpg" id="doctress">
+                </div>
+            </div>
+            <div class="gap"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-up">
+                <div class="column">
+                    <h2>HEALTCARE.</h2>
+                    <p>Metairie, 3689  Bassel Street, LA, Louisiana</p>
+                    <p>Contact us: 225-788-5489</p>
+                    <div class="social-media"></div>
+                </div>
+                <div class="column">
+                    <h4>Category</h4>
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Services</p>
+                    <p>Reviews</p>
+                    <p>Article</p>
+                </div>
+                <div class="column">
+                    <h4>About</h4>
+                    <p>Partners</p>
+                    <p>Careers</p>
+                    <p>Press</p>
+                    <p>Community</p>
+                </div>
+                <div class="column">
+                    <h4>Subscribe newsletter</h4>
+                    <p>Sign up for tips, new destinations, and exclusive promos.</p>
+                    <input type="text" placeholder="Enter your email" id="email">
+                    <button class="modal">Subcribe</button>
+                </div>
+            </div>
+            <div class="footer-down">
+                <div class="rights">
+                    <p>© 2021 Healthcare - All rights reserved.</p>
+                </div>
+                <div class="utilites">
+                    <p>Privacy</p>
+                    <p>Security</p>
+                    <p>Terms</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
